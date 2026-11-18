@@ -1,0 +1,32 @@
+name: ubuy
+description: Consulta alimentos, entiende sus ingredientes y compra con más información.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  image_picker: ^1.2.0
+  camera: ^0.11.2
+  mobile_scanner: ^7.5.0
+  speech_to_text: ^7.5.0
+  cryptography: ^2.9.0
+  uuid: ^4.5.2
+  supabase_flutter: ^2.12.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,35 @@
+{
+    "name": "uBuy · Elige con más información",
+    "short_name": "uBuy",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#f5f5f7",
+    "theme_color": "#007aff",
+    "description": "Consulta alimentos, entiende sus ingredientes y guarda tu bitácora de productos.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
